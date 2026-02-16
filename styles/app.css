@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Unbounded:wght@600&display=swap');
+
+:root {
+    --dark-bg: #202959;
+    --dark-bg-light: rgba(0, 0, 0, 0.25);
+    --primary-color: #ABD03E;
+    --secondary-color: #3B9445;
+    /* --gradient-color: linear-gradient(34deg,rgba(0, 23, 87, 1) 0%, rgba(7, 62, 162, 1) 50%, rgba(28, 152, 216, 1) 100%); */
+    --gradient-color: linear-gradient(34deg,rgba(32, 41, 89, 1) 0%, rgba(7, 62, 162, 1) 74%);
+    --text-color: #ffff;
+    --text-light: #edecec;
+    --gray-color: #999;
+    --gray-light-001: #f0f0f0;
+    --gray-light-002: #f8f8f8;
+
+    --font-001: 0.9rem;
+    --font-002: 1rem;
+    --font-big: 1.4rem;
+
+    --font-bold: 900;
+    --font-w-medium: 5oo;
+
+    --border-shadow: 0px 8px 16px hsla(265, 75%, 4%, .16);
+
+    --transition-fast: all .4s ease-in-out;
+    --transition-slow: all .6s ease-in-out;
+
+    --body-font: "Montserrat", sans-serif;
+    --header-font: "Unbounded", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+}
