@@ -6,7 +6,7 @@
     --primary-color: #ABD03E;
     --secondary-color: #3B9445;
     /* --gradient-color: linear-gradient(34deg,rgba(0, 23, 87, 1) 0%, rgba(7, 62, 162, 1) 50%, rgba(28, 152, 216, 1) 100%); */
-    --gradient-color: linear-gradient(34deg,rgba(32, 41, 89, 1) 0%, rgba(7, 62, 162, 1) 74%);
+    --gradient-color: linear-gradient(34deg, rgba(32, 41, 89, 1) 0%, rgba(7, 62, 162, 1) 74%);
     --text-color: #ffff;
     --text-light: #edecec;
     --gray-color: #999;
@@ -27,6 +27,11 @@
 
     --body-font: "Montserrat", sans-serif;
     --header-font: "Unbounded", sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {

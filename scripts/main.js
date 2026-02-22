@@ -51,4 +51,3 @@ plans_list.forEach((list, index) => {
 
 
 
-
