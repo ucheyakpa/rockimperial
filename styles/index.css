@@ -30,8 +30,8 @@ section {
 }
 
 .btn {
-    width: 170px;
-    height: 45px;
+    /* width: 170px; */
+    /* height: 45px; */
     border: none;
     cursor: pointer;
     background-color: var(--primary-color);
@@ -43,6 +43,7 @@ section {
     border: 2px solid transparent;
     transition: var(--transition-slow);
     cursor: pointer;
+    padding: 12px;
 }
 
 .btn a {
@@ -81,10 +82,22 @@ section {
     font-weight: 600;
 }
 
+.hero_title {
+    width: 60%;
+}
+
 .section_title h2 {
-    font-size: calc(var(--font-002) * 2.4);
+    font-size: calc(var(--font-002) * 1.8);
     color: var(--text-color);
-    line-height: 2.8rem;
+    line-height: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.section_title h3 {
+    font-size: calc(var(--font-002) * 1.2);
+    color: var(--gray-light-001);
+    font-weight: 500;
+    line-height: 1.4rem;
 }
 
 .section_image {
@@ -828,7 +841,7 @@ section {
     background-color: var(--text-color);
     box-shadow: var(--border-shadow);
     border-radius: var(--font-002);
-    padding: 2rem 2.5rem 3rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -1174,6 +1187,10 @@ footer {
         width: 100%;
     }
 
+    .hero_title {
+        width: 100%;
+    }
+
     .section_image {
         width: 100%;
     }
@@ -1320,11 +1337,6 @@ footer {
         width: 60%;
     }
 
-    .section_title h2 {
-        font-size: calc(var(--font-002) * 2.4);
-        line-height: 2.8rem;
-    }
-
     .section_title_text span {
         font-size: calc(var(--font-002) * 1.1);
     }
@@ -1389,10 +1401,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-
-    /* .contact_grid {
-        grid-template-columns: repeat(2, 1fr);
-    } */
 }
 
 @media(max-width: 500px) {
@@ -1409,8 +1417,13 @@ footer {
     }
 
     .section_title h2 {
-        font-size: calc(var(--font-002) * 2);
-        line-height: 2.4rem;
+        font-size: calc(var(--font-002) * 1.5);
+        line-height: 1.8rem;
+    }
+
+    .section_title h3 {
+        font-size: calc(var(--font-002) * 1.1);
+        line-height: 1.4rem;
     }
 
     .section_title_text span {
