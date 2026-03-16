@@ -1432,6 +1432,10 @@ footer {
         font-size: calc(var(--font-002) * 3);
     }
 
+    .feature_title p {
+        width: 80%;
+    }
+
     .plans_title ul {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1538,6 +1542,10 @@ footer {
 
     .service i {
         font-size: calc(var(--font-002) * 2.4);
+    }
+
+    .feature_title p {
+        width: 100%;
     }
 
     .plans_title ul {
