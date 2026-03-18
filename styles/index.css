@@ -87,9 +87,9 @@ section {
 }
 
 .section_title h2 {
-    font-size: calc(var(--font-002) * 1.8);
+    font-size: calc(var(--font-002) * 1.6);
     color: var(--text-color);
-    line-height: 2.2rem;
+    line-height: 1.8rem;
     margin-bottom: 8px;
 }
 
@@ -511,6 +511,7 @@ section {
 
 .property_title h2 {
     color: var(--dark-bg);
+    font-size: calc(var(--font-002) * 1.6);
 }
 
 .property_title ul {
@@ -603,7 +604,7 @@ section {
 }
 
 .service i {
-    font-size: calc(var(--font-002) * 4);
+    font-size: calc(var(--font-002) * 3.4);
     margin-bottom: 10px;
     color: var(--secondary-color);
 }
@@ -1238,6 +1239,10 @@ footer {
     .services {
         flex-direction: column;
     }
+
+    .sidebar {
+        width: 32%;
+    }
 }
 
 @media(max-width: 900px) {
@@ -1415,11 +1420,6 @@ footer {
         font-size: calc(var(--font-002) * 0.8);
     }
 
-    .property_title h2 {
-        font-size: calc(var(--font-002) * 1.8);
-        line-height: 2.4rem;
-    }
-
     .play_btn {
         top: 55%;
     }
@@ -1517,8 +1517,8 @@ footer {
     }
 
     .property_title h2 {
-        font-size: calc(var(--font-002) * 1.6);
-        line-height: 2.2rem;
+        font-size: calc(var(--font-002) * 1.4);
+        line-height: 2rem;
     }
 
     .play_btn {
@@ -1536,12 +1536,29 @@ footer {
         height: 40px;
     }
 
+    .service-card ul li {
+        font-size: var(--font-001);
+    }
+
+    .section_title h3 {
+        font-size: calc(var(--font-002) * 1.06);
+        line-height: 1.4rem;
+    }
+
+    .service_btn {
+        padding: 10px;
+    }
+
+    .service_btn a {
+        font-size: var(--font-001);
+    }
+
     .service {
         width: 350px;
     }
 
     .service i {
-        font-size: calc(var(--font-002) * 2.4);
+        font-size: calc(var(--font-002) * 2.6);
     }
 
     .feature_title p {
@@ -1613,5 +1630,9 @@ footer {
 
     .features_btn {
         flex-direction: column;
+    }
+
+    .service {
+        width: 320px;
     }
 }

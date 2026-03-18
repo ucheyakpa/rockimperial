@@ -15,6 +15,7 @@ close_sidebar.addEventListener("click", function () {
 const menu = document.querySelector(".menu");
 const open = document.getElementById("open");
 const close = document.getElementById("close");
+const topNavLi = document.querySelectorAll(".top-nav-li")
 
 open.addEventListener("click", function () {
     menu.classList.add("show_menu");
@@ -26,6 +27,14 @@ close.addEventListener("click", function () {
     menu.classList.remove("show_menu");
     open.style.display = "block";
     close.style.display = "none";
+})
+
+topNavLi.forEach(li => {
+    li.addEventListener("click", function () {
+        menu.classList.remove("show_menu");
+        open.style.display = "block";
+        close.style.display = "none";
+    })
 })
 
 // PLAN SCRIPT
